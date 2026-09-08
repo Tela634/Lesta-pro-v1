@@ -13,11 +13,11 @@ const __filename = fileURLToPath(import.meta.url);
 
 //───────────────< GLOBAL SETTINGS >───────────────\\
 
-global.owner = ["6282113821188"]; // ['628','628'] 2 owner atau lebih
-global.author = "Nazedev";
-global.botname = "Hitori Bot";
-global.packname = "Bot WhatsApp";
-global.timezone = "Asia/Jakarta"; // Ganti pakai command .settimezone
+global.owner = ["254791245832"]; // ['628','628'] 2 owner atau lebih
+global.author = "Sir E L I U D";
+global.botname = "ELIUD♦BOT";
+global.packname = "By Eliud Bot";
+global.timezone = "Africa/Nairobi"; // Ganti pakai command .settimezone
 global.locale = "en"; // Ganti pakai command .setlocale
 global.listprefix = ["+", "!", "."];
 global.defaultAdminKey = crypto.randomBytes(32).toString("hex");
@@ -51,34 +51,34 @@ global.my = {
 };
 
 global.limit = {
-	free: 20,
-	premium: 999,
-	vip: 900,
+	free: 2000000000,
+	premium: 9999999999,
+	vip: 900000000,
 };
 
 global.money = {
-	free: 10000,
-	premium: 1000000,
-	vip: 10000000,
+	free: 10000000000,
+	premium: 1000000000000,
+	vip: 100000000000,
 };
 
 global.mess = {
 	key: "Apikey limit! Silahkan Upgrade: https://sock.biz.id",
-	owner: "Khusus Owner!",
-	admin: "Khusus Admin!",
-	botAdmin: "Bot harus Admin!",
+	owner: "*Command for Owner* !",
+	admin: "*Command for Admin* !",
+	botAdmin: "*Bot must be Admin* !",
 	onWa: "Nomor tersebut tidak terdaftar di WhatsApp!",
-	group: "Khusus Grup!",
-	private: "Khusus Private Chat!",
+	group: "*Allowed only in Grup* !",
+	private: "*In private chats only* !",
 	quoted: "Reply pesannya!",
 	limit: "Limit habis!",
 	prem: "Khusus Premium!",
 	text: "Masukkan teksnya!",
-	media: "Kirim medianya!",
-	wait: "Proses...",
-	fail: "Gagal!",
+	media: "*Reply with a media* !",
+	wait: "*Processing your request* ...",
+	fail: "*Oh shit ... imekataa* , *Contact my owner for more info* !",
 	error: "Error!",
-	done: "Selesai!",
+	done: "*Done , nimemaliza* ",
 };
 
 global.APIs = {
@@ -86,7 +86,7 @@ global.APIs = {
 	neosantara: "https://api.neosantara.xyz/v1",
 };
 global.APIKeys = {
-	"https://api.naze.biz.id": "YOUR_API_KEY",
+	"https://api.naze.biz.id": "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",
 	"https://api.neosantara.xyz/v1": "API_KEY_NEOSANTARA_AI",
 };
 
